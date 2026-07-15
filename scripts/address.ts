@@ -1,5 +1,5 @@
 import { setNetworkId } from '@midnight-ntwrk/midnight-js-network-id';
-import type { EnvironmentConfiguration } from '@midnight-ntwrk/testkit-js';
+import type { EnvironmentConfiguration } from '@midnight-ntwrk/testkit-js'; 
 import { getConfig } from '../src/config.js';
 import { MidnightWalletProvider, type WalletSecret, syncWallet } from '../src/wallet.js';
 import pino from 'pino';
