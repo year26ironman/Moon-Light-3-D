@@ -1,5 +1,5 @@
 # ScholarShield
-
+ 
 **Privacy-Preserving Scholarship Verification on the Midnight Network**
 
 [![Midnight Network](https://img.shields.io/badge/Network-Midnight-blueviolet?style=for-the-badge)](https://midnight.network)
