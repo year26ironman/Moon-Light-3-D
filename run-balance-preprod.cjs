@@ -1,5 +1,5 @@
 const cp = require('child_process');
-const fs = require('fs');
+const fs = require('fs'); 
 const env = fs.readFileSync('.env.preprod', 'utf8').split('\n').reduce((acc, line) => {
     const parts = line.split('=');
     if(parts.length >= 2) acc[parts[0]] = parts.slice(1).join('=').trim();
