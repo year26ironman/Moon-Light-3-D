@@ -1,4 +1,4 @@
-# Midnight Foundation Security Policy
+# Midnight Foundation Security Policy 
 
 This document outlines security procedures and general policies for the Midnight Foundation.
 
