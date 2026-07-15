@@ -1,4 +1,4 @@
-export type NetworkConfig = {
+export type NetworkConfig = { 
   networkId: string;
   indexer: string;
   indexerWS: string;
