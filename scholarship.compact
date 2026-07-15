@@ -1,4 +1,4 @@
-pragma language_version >=0.22.0;
+pragma language_version >=0.22.0; 
 
 // Ledger state: holds the public criteria of the scholarship
 export ledger min_gpa: Uint<32>;
