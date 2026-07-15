@@ -1,4 +1,4 @@
-# Contributing
+# Contributing 
 
 We welcome your contributions to the Midnight network! By contributing, you'll play a vital role in shaping the future of a blockchain focused on data privacy.
 
