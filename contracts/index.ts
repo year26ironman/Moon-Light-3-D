@@ -1,4 +1,4 @@
-import { CompiledContract } from '@midnight-ntwrk/midnight-js-protocol/compact-js';
+import { CompiledContract } from '@midnight-ntwrk/midnight-js-protocol/compact-js'; 
 import path from 'node:path';
 
 import { fileURLToPath } from 'node:url';
