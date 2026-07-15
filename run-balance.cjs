@@ -1,4 +1,4 @@
-const cp = require('child_process');
+const cp = require('child_process'); 
 const fs = require('fs');
 const env = fs.readFileSync('.env.preview', 'utf8').split('\n').reduce((acc, line) => {
   const parts = line.split('=');
