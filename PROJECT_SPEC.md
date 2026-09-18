@@ -32,16 +32,15 @@ A decentralized application (dApp) that allows students to prove their eligibili
 
 ---
 
-## 3. Privacy Model
+| Information              | Publicly Verifiable (Ledger)                                                                 | Confidential (Witness)                                      |
+| :----------------------- | :------------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
+| **Student Identity**     | No personal identity data is revealed, unless intentionally associated with a payout address | Complete identity information                               |
+| **Academic Performance** | Only the fact that the GPA satisfies the required minimum                                    | Student's exact GPA, e.g. `9.13`                            |
+| **Household Income**     | Only that the reported income is within the permitted maximum                                | Exact income amount, e.g. `₹1,80,000`                       |
+| **Eligibility Category** | Confirmation that the category belongs to the approved set                                   | Specific category selected by the student                   |
+| **Issuer Authority**     | Trusted issuer's public verification key                                                     | No private issuer information is disclosed                  |
+| **Verification Result**  | Whether the generated proof is valid (`true`/`false`)                                        | Temporary/intermediate values used during proof computation |
 
-| Data Point | What is Public (Ledger) | What is Private (Witness) |
-| :--- | :--- | :--- |
-| **Student Identity** | None (unless linked to payout address) | Full identity details |
-| **GPA** | Only that `GPA >= threshold` | Exact GPA (e.g., `9.13`) |
-| **Family Income** | Only that `Income <= threshold` | Exact income (e.g., `₹1,80,000`) |
-| **Category** | Only that it is on the allowed list | Exact category |
-| **Issuer Authority** | Public key of the trusted issuer | None (must be known to verify signature) |
-| **Verification State**| Proof validity (`true`/`false`) | Intermediate computation variables |
 
 ---
 
